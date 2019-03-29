@@ -2,5 +2,5 @@ os: osx
 osx_image: xcode10.1  
 language: objective-c
 xcode_project: CiTestFramework.xcodeproj
-xcode_scheme: CiTestFrameworkTests
+xcode_scheme: CiTestFramework
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XS
