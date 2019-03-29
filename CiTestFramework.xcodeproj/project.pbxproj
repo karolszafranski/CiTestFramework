@@ -10,6 +10,9 @@
 		0DA559E0224E34D100A6C229 /* CiTestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA559D6224E34D100A6C229 /* CiTestFramework.framework */; };
 		0DA559E5224E34D100A6C229 /* CiTestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA559E4224E34D100A6C229 /* CiTestFrameworkTests.m */; };
 		0DA559E7224E34D100A6C229 /* CiTestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA559D9224E34D100A6C229 /* CiTestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA55A00224E518300A6C229 /* Functionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA559FE224E518300A6C229 /* Functionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA55A01224E518300A6C229 /* Functionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA559FF224E518300A6C229 /* Functionality.m */; };
+		0DA55A03224E51B200A6C229 /* Functionality_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA55A02224E51B200A6C229 /* Functionality_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		0DA559DF224E34D100A6C229 /* CiTestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiTestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA559E4224E34D100A6C229 /* CiTestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CiTestFrameworkTests.m; sourceTree = "<group>"; };
 		0DA559E6224E34D100A6C229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA559FE224E518300A6C229 /* Functionality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Functionality.h; sourceTree = "<group>"; };
+		0DA559FF224E518300A6C229 /* Functionality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Functionality.m; sourceTree = "<group>"; };
+		0DA55A02224E51B200A6C229 /* Functionality_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Functionality_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				0DA559D9224E34D100A6C229 /* CiTestFramework.h */,
+				0DA559FE224E518300A6C229 /* Functionality.h */,
+				0DA559FF224E518300A6C229 /* Functionality.m */,
 				0DA559DA224E34D100A6C229 /* Info.plist */,
 			);
 			path = CiTestFramework;
@@ -82,6 +90,7 @@
 			children = (
 				0DA559E4224E34D100A6C229 /* CiTestFrameworkTests.m */,
 				0DA559E6224E34D100A6C229 /* Info.plist */,
+				0DA55A02224E51B200A6C229 /* Functionality_Test.m */,
 			);
 			path = CiTestFrameworkTests;
 			sourceTree = "<group>";
@@ -94,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA559E7224E34D100A6C229 /* CiTestFramework.h in Headers */,
+				0DA55A00224E518300A6C229 /* Functionality.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA55A01224E518300A6C229 /* Functionality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DA559E5224E34D100A6C229 /* CiTestFrameworkTests.m in Sources */,
+				0DA55A03224E51B200A6C229 /* Functionality_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
