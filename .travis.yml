@@ -5,10 +5,7 @@ language: objective-c
 before_install:
 - instruments -s devices
 
-env:
-  - SCHEME=CiTestFramework
-  - SDK=iphonesimulator12.1
-  - DESTIONATION="platform=iOS Simulator,name=iPhone X,OS=12.1"
+env: SCHEME=CiTestFramework SDK=iphonesimulator12.1 DESTIONATION="platform=iOS Simulator,name=iPhone X,OS=12.1"
 
 script:
   - xcodebuild -scheme $SCHEME -sdk $SDK -destination $DESTIONATION build-for-testing
