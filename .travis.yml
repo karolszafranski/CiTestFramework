@@ -8,5 +8,5 @@ before_install:
 env: SCHEME=CiTestFramework SDK=iphonesimulator12.1 DESTIONATION="platform=iOS Simulator,name=iPhone X,OS=12.1"
 
 script:
-  - xcodebuild -scheme $SCHEME -sdk $SDK -destination $DESTIONATION build-for-testing
-  - xcodebuild -scheme $SCHEME -sdk $SDK -destination $DESTIONATION test-without-building
+  - xcodebuild -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTIONATION" build-for-testing
+  - xcodebuild -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTIONATION" test-without-building
