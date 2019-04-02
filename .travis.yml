@@ -3,7 +3,6 @@ osx_image: xcode10.1
 language: objective-c
 xcode_project: CiTestFramework.xcodeproj
 xcode_scheme: CiTestFramework
-xcode_destination: platform=iOS Simulator,name=iPhone 6,OS=11.2
 
 before_install:
 - instruments -s devices
