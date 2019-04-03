@@ -4,3 +4,7 @@ language: objective-c
 xcode_project: CiTestFramework.xcodeproj
 xcode_scheme: CiTestFramework
 xcode_destination: platform=iOS Simulator,name=iPhone X,OS=12.1
+
+before_script:
+- date
+
